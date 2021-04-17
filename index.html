@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equlv="X-UA-Compatible" content="ie=edge">
+	<title>Starrish_shop</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+	<div class="header">
+		<div class="header-contain">
+			<div class="header-contain-inner">
+				<a href="#" class="shop-logo"> 
+					<span class="reader-only">Starrish</span>
+				</a>
+				<div class="main-menu nav-list-larger">
+					<div class="main-menu-contain">
+						<a href="#" class="label current">
+							clothing
+						</a>
+					</div>
+					<div class="main-menu-contain">
+						<a href="#" class="label">
+							Makeups
+						</a>
+					</div>
+					<div class="main-menu-contain">
+						<a href="#" class="label">
+							Jewelry
+						</a>
+					</div>
+				</div>
+	            <ul class="nav-list nav-list-mobile">
+	                <li class="nav-item">
+	                    <div class="mobile-menu">
+	                    	<span class="line-border line-border-top">
+		                        <span class="line line-top"></span>
+		                    </span>
+		                    <span class="line-border line-border-bottom">
+		                        <span class="line line-bottom"></span>
+		                    </span>
+	                    </div>
+	                </li>
+	            </ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<!-- Main -->
+<main class="main">
+	<!-- Ribbon -->
+	<section class="collection-module" data-module-template="ribbon">
+		<div class="ribbon-content" data-unit-id="ribbon">
+			<div class="ribbon">
+				<div class="module-content">
+					<div class="ribbon-content">
+						<div class="section-content">
+							<p>
+								<span>Please record the <strong>CODE, COLOR and SIZE</strong>. Send to Seller. Seller will calculate the <strong>Total Amount (including freight*)</strong> for you.</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Main Contain -->
+	<section class="shop-main">
+		<div class="shop-main-inner">
+			<div class="inner-contain">
+				<div class="search-contain">
+					<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Product Name" title="Type in the name">
+				</div>
+				<div class="cate-contain">
+					<div id="myBtnContainer">
+						<button class="btn act" onclick="filterSelection('all')"> Show All</button>
+						<button class="btn" onclick="filterSelection('F')"> Women</button>
+						<button class="btn" onclick="filterSelection('M')"> Men</button>
+						<button class="btn" onclick="filterSelection('U')"> Unisex</button>
+					</div>
+				</div>
+				<div class="items-contain">
+					<ul class="grid-container" id="myUL">
+						<li class="card F">
+							<div class="card-contain">
+								<div class="inf">
+									<a><h1>C001 Long Skirt</h1></a>
+									<div class="tag">Pre-Order</div>
+									<h2>RM69.00</h2>
+								</div>
+								<div class="card-grid-container">
+									<div class="image-container">
+										<img src="Image/Clothing/C001-1.jpg">
+									</div>
+									<div class="image-container">
+										<img src="Image/Clothing/C001-2.jpg">
+									</div>
+									<div class="image-container">
+										<img src="Image/Clothing/C001-3.jpg">
+									</div>
+								</div>
+								<div class="inf-2">
+									<h3>Brand:</h3>
+									<h3>Size:</h3>
+									<h3>Color:</h3>
+								</div>
+							</div>
+						</li>
+						<li class="card F">
+							<div class="card-contain">
+								<div class="inf">
+									<a><h1>C002 Pants</h1></a>
+									<div class="tag">Pre-Order</div>
+									<h2>RM69.00</h2>
+								</div>
+								<div class="card-grid-container">
+									<div class="image-container">
+										<img src="Image/Clothing/C001-1.jpg">
+									</div>
+									<div class="image-container">
+										<img src="Image/Clothing/C001-2.jpg">
+									</div>
+									<div class="image-container">
+										<img src="Image/Clothing/C001-3.jpg">
+									</div>
+								</div>
+								<div class="inf-2">
+									<h3>Brand:</h3>
+									<h3>Size:</h3>
+									<h3>Color:</h3>
+								</div>
+							</div>
+						</li>
+						<li class="card U">
+							<div class="card-contain">
+								<div class="inf">
+									<a><h1>C003 Dress</h1></a>
+									<div class="tag">Pre-Order</div>
+									<h2>RM69.00</h2>
+								</div>
+								<div class="card-grid-container">
+									<div class="image-container">
+										<img src="Image/Clothing/C001-1.jpg">
+									</div>
+									<div class="image-container">
+										<img src="Image/Clothing/C001-2.jpg">
+									</div>
+									<div class="image-container">
+										<img src="Image/Clothing/C001-3.jpg">
+									</div>
+								</div>
+								<div class="inf-2">
+									<h3>Brand:</h3>
+									<h3>Size:</h3>
+									<h3>Color:</h3>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<footer>
+	<div class="footer-width">
+		<div class="footer-row-1">
+			<div class="footer-column">
+				<div id="footer-column-0" class="footer-column-section">
+					<h5 id="list-0">QUICK LINKS</h5>
+					<ul id="footer-list-0" class="footer-links">
+						<li><a href="#">Makeups</a></li>
+						<li><a href="#">Jewelry</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-column">
+				<div id="footer-column-1" class="footer-column-section">
+					<h5 id="list-1">CONTACT</h5>
+					<ul id="footer-list-1" class="footer-links">
+						<li><a href="#">Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-row-2">
+			<p>Copyright &copy; 2021 Starrish_shop. The picture used on this website are partly from the Internet.</p>
+		</div>
+	</div>
+</footer>
+<script src="header.js"></script>
+<script type="text/javascript">
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("card");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+    }
+
+    function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+    }
+
+    function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+          }
+      }
+      element.className = arr1.join(" ");
+  }
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("act");
+        current[0].className = current[0].className.replace(" act", "");
+        this.className += " act";
+    });
+}
+</script>
+</body>
+</html>
